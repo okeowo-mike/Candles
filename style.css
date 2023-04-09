@@ -9,7 +9,7 @@ body {
 }
 
 #main-container {
-  background: #be9a7c;
+  background: #eaddca;
   color: white;
   font-family: roboto;
   line-height: 1.5;
@@ -72,7 +72,7 @@ p {
 
 #nav-menu ul li a {
   position: relative;
-  color: rgb(255, 199, 138);
+  color: #e1c16e;
 }
 
 #nav-menu ul li a::after {
@@ -83,7 +83,7 @@ p {
   bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgb(255, 199, 138);
+  background: #e1c16e;
   transition: width 0.3s;
 }
 
@@ -92,14 +92,14 @@ p {
 }
 
 #nav-menu ul li a:hover {
-  color: #6c4a4a;
+  color: #cd7f32;
 }
 
 #main-nav {
   position: fixed;
   width: 100%;
   top: 0;
-  background: linear-gradient(rgb(47, 33, 18), transparent);
+  background: linear-gradient(rgb(71, 65, 58), transparent);
 }
 
 #nav-content {
@@ -118,7 +118,7 @@ p {
 #showcase-content h1 {
   font-size: clamp(4rem, 1rem + 7vw, 15rem);
   color: transparent;
-  -webkit-text-stroke: 2px rgb(255, 199, 138);
+  -webkit-text-stroke: 2px #e1c16e;
   background: url(./back.png);
   -webkit-background-clip: text;
   background-position: 0 0;
@@ -135,7 +135,7 @@ p {
   font-size: clamp(2rem, 1rem + 7vw, 4rem);
   font-style: italic;
   font-weight: 400;
-  color: #6c4a4a;
+  color: black;
 }
 
 /* about section ////////////////////////////////////////////////////// */
@@ -147,7 +147,7 @@ p {
   flex-direction: column;
   align-items: center;
   background: url(./10.png) no-repeat center center/cover;
-  color: #6c4a4a;
+  color: black;
 }
 #about h2 {
   font-size: 70px;
@@ -163,18 +163,20 @@ p {
 
 /* product section /////////////////////////////////////////////////////////////// */
 #product {
-  padding-bottom: 4rem;
+  padding-bottom: 4.5rem;
 }
 .product {
-  /* max-height: 90vh; */
   box-shadow: 0px 20px 90px 11px rgba(18, 17, 39, 0.2);
-  padding: 70px 40px;
+  padding: 50px 10px;
   border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .product img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 #product-h2 {
@@ -182,7 +184,7 @@ p {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  color: #6c4a4a;
+  color: #e1c16e;
 }
 
 #product-display {
@@ -201,7 +203,7 @@ p {
   margin-bottom: 10px;
   margin-top: 20px;
   font-size: 4rem;
-  color: #6c4a4a;
+  color: #e1c16e;
 }
 #product-size {
   font-size: 2rem;
@@ -218,15 +220,15 @@ p {
   margin-top: 30px;
   padding: 20px;
   border: 3px solid white;
-  color: #6c4a4a;
+  color: #e1c16e;
   font-weight: 600;
 }
 
 #product-text a:hover {
   color: rgb(255, 199, 138);
-  border: 3px solid #6c4a4a;
+  border: 3px solid #e1c16e;
   transition: ease-in-out 0.3s;
-  box-shadow: 0px 20px 60px 20px rgba(255, 186, 126, 0.2);
+  box-shadow: 0px 20px 60px 20px #e1c16e;
 }
 
 /* extra text section //////////////////////////////////////////////////////////////////////////// */
@@ -235,7 +237,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 5rem;
   background: url(./10.png) no-repeat center center/cover;
-  color: #6c4a4a;
+  color: #e1c16e;
 }
 
 #extra-text-h2 {
@@ -259,7 +261,7 @@ p {
 
 #text-1 {
   border-radius: 9px;
-  max-width: 550px;
+  max-width: 500px;
   padding: 50px 20px;
   box-shadow: 0px 20px 90px 11px rgba(18, 17, 39, 0.2);
 }
@@ -270,12 +272,15 @@ p {
 }
 .up-coming {
   box-shadow: 0px 20px 90px 11px rgba(18, 17, 39, 0.2);
-  padding: 70px 40px;
+  padding: 50px 10px;
   border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .up-coming img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 #up-coming-h2 {
@@ -283,7 +288,7 @@ p {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  color: #6c4a4a;
+  color: #e1c16e;
 }
 
 #up-coming-display {
@@ -302,7 +307,7 @@ p {
   margin-bottom: 10px;
   margin-top: 20px;
   font-size: 4rem;
-  color: #6c4a4a;
+  color: #e1c16e;
 }
 
 #up-coming-size {
@@ -320,13 +325,13 @@ p {
   margin-top: 30px;
   padding: 20px;
   border: 3px solid white;
-  color: #6c4a4a;
+  color: #e1c16e;
   font-weight: 600;
 }
 
 #up-coming-text a:hover {
   color: rgb(255, 199, 138);
-  border: 3px solid #6c4a4a;
+  border: 3px solid #e1c16e;
   transition: ease-in-out 0.3s;
   box-shadow: 0px 20px 60px 20px rgba(255, 186, 126, 0.2);
 }
@@ -365,7 +370,7 @@ footer {
 
 #footer-container a {
   font-size: 25px;
-  color: #6c4a4a;
+  color: #e1c16e;
 }
 
 #footer-container a:hover {
@@ -375,7 +380,7 @@ footer {
 #copy-right {
   display: flex;
   justify-content: center;
-  color: #6c4a4a;
+  color: #e1c16e;
   padding-top: 20px;
   border-top: 3px solid #be9a7c;
 }
